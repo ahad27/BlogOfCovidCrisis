@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Crisis in India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+    h1{
+        color:salmon;
+    }
+    h2{
+        color: rgb(207, 37, 37);
+    }
+    article{
+        color: green;
+    }
+    input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+}
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <h1 style="text-align: center; font-size: 4rem;"> Covid-19 Crisis in India</h1>
+                </div>
+            </div> <br><br><br>
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <h2>Oxygen Crisis in Hospital:</h2><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <article style="font-size: large;">
+                        As India is in dire need of medical oxygen and anti-viral drugs, a number of European Union (EU) member states will offer their assistance to India to help tackle the unexpected pandemic resurgence, the European Commission said. "Alarmed by the epidemiological situation in India. We are ready to support," said European Commission President Ursula von der Leyen on Sunday.
+
+                        The Biden Administration also said it is working non-stop to do all it can to deliver on an urgent basis the supplies most needed by India, the US State Department said here.
+
+                        South African Health Minister Zweli Mkhize also said that the current COVID-19 crisis of huge number of daily infections in India is something that has already happened elsewhere in the world such as in UK and Europe.
+                    </article><br>
+                    <h4>Author: <strong>Abdul Ahad</strong> <input type="text" id="currentDateTime"></h4>
+                </div>
+                <div class="col">
+                    <figure>
+                        <img src="./image/download.jpg" alt=" Oxigen Crisis " height="300px" width="100%">
+                        <figcaption>
+                            Oxygen Crisis in India
+                        </figcaption>
+                    </figure>
+                    
+                </div>
+            </div><br><br><br>
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <h2>Bed Shortage in Hospital:</h2><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <article style="font-size: large;">
+                        As hospitals in Delhi and many other cities run out of beds, people have been forced to find ways to get treatment for sick patients at home. Many have turned to the black market, where prices of essential medicines, oxygen cylinders and concentrators have skyrocketed and questionable drugs are now proliferating.
+
+                        India’s economic outlook has weakened again, albeit slightly, with worst-case scenario forecasts suggesting the toll from the coronavirus pandemic could be much deeper, stoking fears the job crisis may worsen over the coming year, a Reuters poll found.
+
+                        Renewed restrictions to curb the current coronavirus wave have stalled economic activity, leaving many millions out of work and pushing economists - who have broadly been bullish - to downgrade their views for the second time since early April
+
+                    </article><br>
+                    
+                    <h4>Author: <strong>Abdul Ahad</strong> <input type="text" id="currentTime"></h4>
+                </div>
+                <div class="col">
+                    <figure>
+                        <img src="./image/download (1).jpg" alt=" Bed Shortage " height="300px" width="100%">
+                        <figcaption>
+                            Bed Shortage in India
+                        </figcaption>
+                    </figure>
+                    
+                </div>
+            </div> <br><br><br>
+
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <h2>Economic Crisis in India due to Covid-19:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm col-md col-lg">
+                    <article style="font-size: large;">
+                        India’s economic outlook has weakened again, albeit slightly, with worst-case scenario forecasts suggesting the toll from the coronavirus pandemic could be much deeper, stoking fears the job crisis may worsen over the coming year, a Reuters poll found.
+
+                        Renewed restrictions to curb the current coronavirus wave have stalled economic activity, leaving many millions out of work and pushing economists - who have broadly been bullish - to downgrade their views for the second time since early April
+
+                    </article><br>
+                    
+                    <h4>Author: <strong>Abdul Ahad</strong> <input type="text" id="current"></h4>
+                </div>
+                <div class="col">
+                    <figure>
+                        <img src="./image/download (2).jpg" alt=" Economic Crisis " height="300px" width="100%">
+                        <figcaption>
+                            Economic Crisis in India
+                        </figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script>
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        var dateTime = date+' '+time;
+        document.getElementById("currentDateTime").value = dateTime;
+        document.getElementById("currentTime").value = dateTime;
+        document.getElementById("current").value = dateTime;
+      </script>
+</body>
+</html>
